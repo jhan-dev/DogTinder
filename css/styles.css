@@ -1,0 +1,23 @@
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.navbar-brand {
+    font-family: 'Neucha', cursive;
+    font-size: 2rem;
+    padding: 0% 5%;
+}
+
+.navbar-nav {
+    padding: 0% 5%;
+} 
