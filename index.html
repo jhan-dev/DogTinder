@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <title>barky</title>
+
+    <!-- Style Sheets -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -10,6 +12,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,6 +21,13 @@
       rel="stylesheet"
     />
 
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/b547f2b36c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap Scripts -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
@@ -34,7 +45,8 @@
       <div class="container-fluid">
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark">
-          <a class="navbar-brand" href="">barky</a>
+          <a class="navbar-brand" href="">barky <i class="fa-solid fa-paw"></i></a>
+          
           <button
             class="navbar-toggler"
             type="button"
@@ -65,16 +77,19 @@
         </nav>
 
         <!-- Title -->
-
         <div class="row">
           <div class="col-lg-6">
             <h1>Meet new and interesting dogs nearby.</h1>
-            <button type="button">Download</button>
-            <button type="button">Download</button>
+            <button type="button" class="btn btn-dark btn-lg download-button">
+              <i class="fa-brands fa-apple"></i> Download
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg download-button">
+              <i class="fa-brands fa-google-play"></i> Download
+            </button>
           </div>
 
           <div class="col-lg-6">
-            <img src="images/iphone6.png" alt="iphone-mockup" />
+            <img class="title-image" src="images/iphone6.png" alt="iphone-mockup" />
           </div>
         </div>
       </div>
@@ -82,14 +97,20 @@
 
     <!-- Features -->
     <section id="features">
-      <h3>Easy to use.</h3>
-      <p>So easy to use, even your dog could do it.</p>
+      <div class="feature-box">
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
 
-      <h3>Elite Clientele</h3>
-      <p>We have all the dogs, the greatest dogs.</p>
+      <div class="feature-box">
+        <h3>Elite Clientele</h3>  
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
 
-      <h3>Guaranteed to work.</h3>
-      <p>Find the love of your dog's life or your money back.</p>
+      <div class="feature-box">
+        <h3>Guaranteed to work.</h3>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
     </section>
 
     <!-- Testimonials -->
