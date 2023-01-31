@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat';
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,7 +32,7 @@ p {
 }
 
 .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
 }
 
 
@@ -69,14 +70,16 @@ p {
 
 /* Features Section */
 #features {
-    padding: 7% 15%;
     background-color: #fff;
     position: relative;
     z-index: 1;
 }
 
+.feature-title {
+    font-size: 1.5rem;
+}
+
 .feature-box {
-    text-align: center;
     padding: 4.5%;
 }
 
@@ -91,7 +94,6 @@ p {
 
 /* Testimonial Section */
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
     color: #fff;
 }
@@ -107,13 +109,8 @@ p {
     margin: 20px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
-
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -125,7 +122,6 @@ p {
 /* Pricing Section */
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
 #pricing h3{
@@ -145,8 +141,6 @@ p {
 #cta {
     background-color: #ff4c68;
     color: #fff;
-    padding: 7% 15%;
-    text-align: center;
 }
 
 .cta-heading {
@@ -157,15 +151,11 @@ p {
 }
 
 /* Footer Section */
-#footer {
-    padding: 7% 15%;
-    text-align: center;
-}
-
 .social-icon {
     margin: 20px 10px;
 }
 
+/* Media Query */
 @media (max-width: 1028px) {
 
     #title {
