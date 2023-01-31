@@ -2,6 +2,29 @@ body {
     font-family: 'Montserrat';
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+    font-size: 20px;
+}
+
+/* Headings */
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 #title {
     background-color: #ff4c68;
     color: #fff;
@@ -11,31 +34,8 @@ body {
     padding: 3% 15% 7%;
 }
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
-    font-weight: bold;
-    line-height: 1.5;
-}
 
-h2 {
-    font-family: 'Montserrat';
-    font-size: 3rem;
-    line-height: 1.5;
-    font-weight: 600;
-}
-
-h3 {
-    font-family: 'Montserrat';
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-
-p {
-    color: #8f8f8f;
-    font-size: 20px;
-}
-
+/* Navbar Section */
 .navbar {
     padding: 0 0 4.5rem;
 }
@@ -96,6 +96,11 @@ p {
     color: #fff;
 }
 
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 .testimonial-image {
     width: 10%;
     border-radius: 100%;
@@ -125,6 +130,11 @@ p {
 
 #pricing h3{
     font-weight: bold;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .pricing-column {
